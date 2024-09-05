@@ -1,0 +1,72 @@
+body {
+    background-image: url('../IMG/fundo.jpg') !important;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 75%;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 100px;
+    color: #ff9f3f;
+}
+
+.texto {
+    font-size: 30px;
+    margin-top: 10px;
+    color: #737373;
+}
+
+.campo-pesquisa {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.pesquisa {
+    width: 30rem;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 1rem;
+}
+
+.btn {
+    width: 15rem;
+    padding: 0.8rem 1.2rem;
+    border-radius: 10px;
+    background-color: #f7bc81;
+    font-size: 1rem;
+    align-self: center;
+    cursor: pointer;
+}
+
+.resultado-pesquisa {
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 30rem;
+  background-color: #f8e3cf;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
